@@ -144,7 +144,7 @@ def main():
     warnings.filterwarnings('ignore')
 
     set_seed(42)
-    ##
+
     data = carregar_dados('train-atualizada.csv', 'test-atualilzada.csv')
     data_filtrado = preprocessar_dados(data)
 
