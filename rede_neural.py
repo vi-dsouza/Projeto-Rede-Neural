@@ -147,12 +147,6 @@ def main():
     ##
     data = carregar_dados('train-atualizada.csv', 'test-atualilzada.csv')
     data_filtrado = preprocessar_dados(data)
-    print("\nPrévia dos dados após transformação da coluna 'Attrition':\n")
-    print(data_filtrado)
-
-    print("\nContagem de classes numéricas (0 = Stayed, 1 = Left):\n")
-    print(data_filtrado['Attrition'].value_counts())
-
 
     X_train, X_test, y_train, y_test = dividir_dados(data_filtrado)
     
