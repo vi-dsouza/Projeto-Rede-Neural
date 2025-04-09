@@ -1,5 +1,5 @@
 
-# 🤖 Rede Neural
+# 🤖 Projeto Rede Neural
 
 Esse projeto contempla o pré-processamento, treinamento, validação de métricas e visualizações de uma rede neural com keras para prever a rotatividade de funcionários.
 
